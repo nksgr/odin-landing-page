@@ -1,0 +1,170 @@
+:root{
+    --header: #1F2937;
+    --primary-text-color: #f9faf8;
+    --sec-text-color: #e5e7eb;
+    --btn-color: #3882F6; /*Also call to action (sec 4) background color */
+    --quote-bkg: #e5e7eb; /*Section 3 background color */
+    --third-text-color: #1f2937;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    display: block;
+
+}
+
+
+/* Common props */
+
+.btn{
+    
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Header */
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    background-color: var(--header);
+    height: 65px;
+    padding:10px 50px;
+
+
+}
+
+.logo{
+    color:var(--primary-text-color);
+    font-size: 24px;
+    
+
+}
+
+.links{
+    display: flex;
+    gap: 25px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--sec-text-color);
+    font-size: 18px;
+
+}
+
+/* Section 1 */
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content{
+
+    
+    color:var(--primary-text-color);
+
+}
+
+.content p {
+
+}
+
+.content.btn{
+
+}
+
+
+.image-container{
+    /* Add a image here from unsplash */
+    height: 200px;
+    width: 300px;
+
+}
+
+/* Section 2 */
+
+.info-boxes{
+
+}
+
+.info-box{
+
+}
+
+.img-box{
+    /* Add an image or something here */
+
+}
+
+.info-box p {
+
+}
+
+/* Section 3 */
+
+.testimonial{
+
+}
+
+.testimonial-byname{
+
+}
+
+/* Section 4 */
+
+.banner {
+
+}
+
+.text-content{
+
+}
+
+.text-content p {
+
+}
+
+.button-box{
+
+}
+
+.button-box.btn{
+
+}
+
+/* Footer */
+
+.footer{
+
+}
+
+.footer p{
+
+}
