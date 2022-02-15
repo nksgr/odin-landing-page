@@ -22,20 +22,9 @@ body{
 
 /* Common props */
 
-.btn{
-    
-}
-
-h1{
-
-}
-
-h2{
-
-}
 
 h3{
-
+    font-size: 20px;
 }
 
 a{
@@ -159,6 +148,7 @@ a{
 .section-2 h2 {
     text-align: center;
     margin: 50px;
+    
 }
 
 .info-boxes{
@@ -167,8 +157,9 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    width: 100%;
     gap: 40px;
+    overflow-x: auto;
 }
 
 .info-box{
@@ -183,15 +174,18 @@ a{
    
     height: 100%;
     width: 100%;
-    border: 5px solid var(--btn-color);
+
     border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+
 }
 
 
 .img-box{
     /* Add an image or something here */
    
-
+    margin-bottom: 5px ;
     width: 240px;
     height: 240px;
     padding: 0;
@@ -209,42 +203,83 @@ a{
 
 /* Section 3 */
 
+.section-3{
+    height: 385px;
+    width: 100%;
+    background-color: var(--quote-bkg) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding : 75px;
+}
+
 .testimonial{
+
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color:var(--third-text-color);
+    text-align: center;
+    margin: 40px 25px;
 
 }
 
 .testimonial-byname{
 
+    font-size: 20px;
+    align-self: flex-end;
 }
 
 /* Section 4 */
+.section-4{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
 
 .banner {
+    display: flex;
+    height: 150px;
+    width: 80%;
+    gap: 50px;
+    padding: 20px;
+    align-items:center;
+    justify-content: center;
+    background-color: var(--btn-color);
+
 
 }
 
 .text-content{
-
+    color: var(--sec-text-color);
 }
 
 .text-content p {
-
+    color: var(--third-text-color);
+    margin: 15px 0;
 }
 
-.button-box{
 
-}
 
-.button-box.btn{
-
+.button-box .btn{
+    text-decoration: none; 
+    color: var(--primary-text-color); 
+    border: 1px solid var(--primary-text-color);
+    padding: 15px 35px;
+    border-radius: 18px;
 }
 
 /* Footer */
 
 .footer{
+    height: 70px;
+    width:100%;
+    text-align: center;
+    background-color: var(--header);
+    color: var(--primary-text-color);
+    padding: 40px 0;
+  
 
 }
 
-.footer p{
-
-}
