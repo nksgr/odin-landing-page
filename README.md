@@ -5,7 +5,7 @@ This is my second project ever made from HTML, CSS on Odin
 
 I'd like to thank all the awesome photographers for their beautifully-captured photos used in my landing page. Here are the list of photos and their owners. 
 
-I own no content of this page, the credit belongs to Unsplash and the awesome photographers! 
+I own no photographs used in this page, the credit belongs to Unsplash and the awesome photographers! 
 
 
 Thank you
